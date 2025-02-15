@@ -3,58 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maths Tutoring | MYP & GCSE</title>
+    <title>Expert Maths Tutoring | MYP & GCSE</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background: #0077b6;
+            background: linear-gradient(135deg, #0077b6, #0096c7);
             color: white;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #005f87;
+            background: #023e8a;
             padding: 10px;
         }
         nav a {
             color: white;
             text-decoration: none;
+            font-size: 1rem;
             padding: 10px 20px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #0077b6;
+            border-radius: 5px;
         }
         .container {
             max-width: 900px;
-            margin: auto;
+            margin: 20px auto;
             padding: 20px;
             background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 15px 25px;
             background: #0077b6;
             color: white;
             text-decoration: none;
+            font-weight: bold;
             border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #005f87;
         }
         footer {
-            background: #005f87;
+            background: #023e8a;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
+        }
+        .highlight {
+            color: #d00000;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Expert Maths Tutoring</h1>
-        <p>MYP & GCSE | Personalized Learning</p>
+        <h1>Expert 1-to-1 Maths Tuition</h1>
+        <p>MYP & GCSE | Personalized Learning with Highly Trained Teachers</p>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -63,27 +89,28 @@
         <a href="#resources">Resources</a>
     </nav>
     <div class="container" id="about">
-        <h2>Welcome to Our Tutoring Services</h2>
-        <p>We provide expert MYP & GCSE Maths tutoring to help students excel in their studies.</p>
-        <a href="#contact" class="btn">Book a Session</a>
+        <h2>Why Choose Our Tuition?</h2>
+        <p>Our highly experienced tutors have many years of teaching experience, specializing in MYP & GCSE Maths. We provide personalized 1-to-1 sessions tailored to each student's learning style and goals. Whether you're aiming to boost your confidence, prepare for exams, or achieve top grades, we're here to help you succeed!</p>
+        <a href="#contact" class="btn">Book Your First Session Now!</a>
     </div>
     <div class="container" id="services">
         <h2>Our Services</h2>
         <ul>
-            <li>One-on-One Tutoring</li>
-            <li>Group Sessions</li>
-            <li>Exam Preparation</li>
-            <li>Homework Help</li>
+            <li>Personalized 1-to-1 Tutoring</li>
+            <li>Small Group Sessions (On Request)</li>
+            <li>Comprehensive Exam Preparation</li>
+            <li>Homework and Coursework Support</li>
         </ul>
     </div>
     <div class="container" id="contact">
         <h2>Contact Us</h2>
-        <p>Email: support@mathstutoring.com</p>
-        <p>Phone: +123 456 7890</p>
+        <p>Ready to improve your Maths skills? Contact us today!</p>
+        <p><span class="highlight">WhatsApp: 054 421 3902</span></p>
+        <p>Reach out anytime, and we’ll respond as quickly as possible!</p>
     </div>
     <div class="container" id="resources">
         <h2>Free Resources</h2>
-        <p>Coming soon: Revision notes, practice questions, and more!</p>
+        <p>Coming soon: Revision notes, practice questions, and helpful guides to support your learning journey.</p>
     </div>
     <footer>
         <p>&copy; 2025 Expert Maths Tutoring | All Rights Reserved</p>
